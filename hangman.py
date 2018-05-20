@@ -1,8 +1,9 @@
 def letter():
-    if (letter) in (word):
-        print ("ja")
+    if (getLetter) in (word):
+        print ("Ja") 
     else:
-        print("nee")
+        print("Nee")
+        
     
 word = input("Please enter your secret word: ")
 
@@ -10,6 +11,6 @@ dashes = "-" * len(word)
 
 print(dashes)
 
-letter = input("Guess a letter: ")
+getLetter = input("Guess a letter: ")
 
 letter()
